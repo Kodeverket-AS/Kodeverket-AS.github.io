@@ -1,0 +1,4 @@
+site_name: Kodeverket Bergen
+site_url: https://kodeverket-as.github.io/
+theme:
+  name: material
