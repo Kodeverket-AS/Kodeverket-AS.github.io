@@ -39,3 +39,15 @@ docs/
 ├── policies/          → Etikk, sikkerhet og prinsipper
 ├── tools/             → CLI-verktøy og utviklingsmiljøer
 └── onboarding.md      → Onboarding-guide for nye utviklere
+```
+
+## 🧑‍💻 Bidra til dokumentasjonen
+Alle i teamet kan og bør bidra til dokumentasjonen. Gjør endringer via en Pull Request og be om en gjennomgang som ved vanlig kodeendring. Husk:
+- Hold språket klart og konsist
+- Bruk norsk i tekst, engelsk i kode
+- Hold struktur og stil konsistent med resten av repoet
+
+## 📢 Kontakt
+Har du forslag eller spørsmål til strukturen? Ta kontakt med @kunkristoffer eller @Andreastak86 i Discord eller bruk vårt [diskusjons forum](https://github.com/orgs/Kodeverket-AS/discussions).
+
+Sist oppdatert: {{ dato }}
