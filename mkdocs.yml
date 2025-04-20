@@ -1,4 +1,44 @@
 site_name: Kodeverket Bergen
 site_url: https://kodeverket-as.github.io/
+nav:
+  - "Introduksjon": index.md
+  - "Kodestandarder":
+    - "Kodestandarder": standards/code-standards.md
+    - "Beste praksis": standards/best-practices.md
+    - "Kodegjennomgang": standards/code-review.md
+  - "Domenekunnskap":
+    - "Begrepsordliste": domain/glossary.md
+    - "Design og UX": domain/design-ux.md
+  - "Prosesser":
+    - "Prosjektopprettelse": process/project-setup.md
+    - "Branching-strategi": process/branching.md
+    - "CI/CD": process/ci-cd.md
+    - "Testing": process/testing.md
+    - "Onboarding": process/onboarding.md
+  - "Retningslinjer":
+    - "Sikkerhet": policies/security.md
+    - "Tilgjengelighet": policies/accessibility.md
+    - "Etikk": policies/ethics.md
+    - "AI-verktøy": policies/ai-tools.md
+    - "Open Source": policies/open-source.md
+  - "Verktøy og team":
+    - "Dev-verktøy": tools/dev-environment.md
+    - "Kommunikasjon": tools/communication.md
 theme:
   name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: indigo
+      accent: deep purple
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: indigo
+      accent: purple
