@@ -1,17 +1,30 @@
-# Welcome to MkDocs
+# React
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Dette kapittelet samler eksempler og anbefalinger for hvordan vi bruker React i våre prosjekter. Her finner du kodeeksempler og tips relatert til komponentstruktur, state-håndtering, hooks, styling og testing.
 
-## Commands
+Innholdet er ment som en støtte i hverdagen, men dekker ikke hele React-økosystemet. For mer omfattende dokumentasjon anbefales det å lese den offisielle dokumentasjonen.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Hva du finner her
 
-## Project layout
+- Eksempler på oppsett av komponenter
+- Bruk av hooks som `useState`, `useEffect` og `useContext`
+- Anbefalt mappestruktur og filorganisering
+- Tips til testing av komponenter
+- Lenker til våre kodestandarder og beste praksis
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Eksterne ressurser
+
+For mer informasjon og offisiell dokumentasjon, se:
+
+- [React dokumentasjon (main site)](https://react.dev/)
+- [Hooks API](https://react.dev/reference/react)
+- [React TypeScript cheatsheet](https://react-typescript-cheatsheet.netlify.app/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+
+## Hvem er dette for?
+
+- Utviklere som jobber i React-prosjekter
+- Nye teammedlemmer som skal lære vår måte å jobbe med React på
+- Alle som ønsker enkle eksempler de kan kopiere og bygge videre på
+
+> Husk at eksemplene her er forenklede og tilpasset vårt behov. For dybdekunnskap, bruk alltid offisielle kilder i tillegg.

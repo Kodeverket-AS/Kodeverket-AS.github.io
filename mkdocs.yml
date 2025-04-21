@@ -33,14 +33,17 @@ nav:
   - "Kode Eksempler":
     - examples/index.md
     - "React":
-      - "komponenter": examples/react/index.md
+      - examples/react/index.md
+    - "React Native":
+      - examples/react-native/index.md
     - "NextJS":
       - examples/nextjs/index.md
       - "Komponenter":
-        - examples/nextjs/index.md
         - "Filstruktur" : examples/nextjs/components/structures.md
+    - "Expo":
+      - examples/expo/index.md
     - "Sanity":
-      - "test": examples/sanity/index.md
+      - examples/sanity/index.md
 extra:
   social:
     - icon: fontawesome/brands/webflow

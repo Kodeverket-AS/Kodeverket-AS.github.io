@@ -1,17 +1,31 @@
-# Welcome to MkDocs
+# Sanity
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Denne seksjonen inneholder eksempler og anbefalinger for hvordan vi bruker Sanity som headless CMS i våre prosjekter. Sanity gir stor fleksibilitet i hvordan vi strukturerer og henter innhold, og integreres ofte med frontend-løsninger som Next.js eller React Native.
 
-## Commands
+Her samler vi mønstre og eksempler på bruk av Sanity Studio, datamodellering, GROQ-spørringer og integrasjon med frontend.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Hva du finner her
 
-## Project layout
+- Eksempler på hvordan vi definerer og organiserer datamodeller (schemas)
+- Bruk av GROQ for å hente data fra Sanity
+- Integrasjon med frontend via `@sanity/client` eller `sanity-codegen`
+- Oppsett og tilpasning av Sanity Studio
+- Best practices for strukturering av innhold og gjenbruk
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Eksterne ressurser
+
+Sanity har god offisiell dokumentasjon og et aktivt utviklermiljø. For mer informasjon, anbefales:
+
+- [Sanity dokumentasjon (main site)](https://www.sanity.io/docs)
+- [GROQ-spørringsspråk](https://www.sanity.io/docs/groq)
+- [Sanity Studio Customization](https://www.sanity.io/docs/studio)
+- [API-klient og frontend-integrasjon](https://www.sanity.io/docs/js-client)
+- [Community Recipes & Examples](https://www.sanity.io/exchange)
+
+## Hvem er dette for?
+
+- Utviklere som jobber med prosjekter som henter eller administrerer innhold via Sanity
+- Teammedlemmer som bidrar til Sanity Studio og modeller
+- Alle som ønsker en forståelse for hvordan vi strukturerer innhold og integrerer det med frontend
+
+> Sanity gir stor fleksibilitet – våre eksempler viser hvordan vi typisk løser ting, men det finnes ofte flere gyldige tilnærminger. Bruk offisielle ressurser ved behov for mer dybde.
