@@ -13,6 +13,12 @@ nav:
       - "Testing": guidelines/process/testing.md
       - "Design og UX": guidelines/process/design-ux.md
       - "Onboarding": guidelines/process/onboarding.md
+    - "Kode standarder":
+      - guidelines/standards/index.md
+      - "Våre standarder": guidelines/standards/code-standards.md
+      - "Beste praksis": guidelines/standards/best-practices.md
+      - "Kodegjennomgang": guidelines/standards/code-review.md
+      - "Domenespråk": guidelines/standards/glossary.md
     - "Retningslinjer":
       - guidelines/policies/index.md
       - "Sikkerhet": guidelines/policies/security.md
@@ -24,23 +30,20 @@ nav:
       - guidelines/tools/index.md
       - "Dev-verktøy": guidelines/tools/dev-environment.md
       - "Kommunikasjon": guidelines/tools/communication.md
-  - "Kode Standarder":
-    - standards/index.md
-    - "Våre standarder": standards/code-standards.md
-    - "Beste praksis": standards/best-practices.md
-    - "Kodegjennomgang": standards/code-review.md
-    - "Begrepsordliste": standards/glossary.md
   - "Kode Eksempler":
     - examples/index.md
     - "React":
-      - "komponenter": examples/react/index.md
+      - examples/react/index.md
+    - "React Native":
+      - examples/react-native/index.md
     - "NextJS":
       - examples/nextjs/index.md
       - "Komponenter":
-        - examples/nextjs/index.md
         - "Filstruktur" : examples/nextjs/components/structures.md
+    - "Expo":
+      - examples/expo/index.md
     - "Sanity":
-      - "test": examples/sanity/index.md
+      - examples/sanity/index.md
 extra:
   social:
     - icon: fontawesome/brands/webflow
