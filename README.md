@@ -37,10 +37,14 @@ Alle i teamet kan og bør bidra til dokumentasjonen. Gjør endringer via en Pull
 - Bruk norsk i tekst, engelsk i kode
 - Hold struktur og stil konsistent med resten av repoet
 
-Hvis du ønsker å få live previews mens du skriver dokumentasjon kan du kjøre `mkdocs-material` lokalt. Dette krever at du har python 3.4 eller høyere og har installert `mkdocs-material` med følgende cli
+> [!NOTE]
+> Lokal forhåndsvising krever at du har python 3.4 eller høyere og har installert `mkdocs-material`. For mer informasjon mer informasjon kan du besøke [offical docs](https://squidfunk.github.io/mkdocs-material/getting-started/) eller sjekke ut denne [youtube tutorial](https://www.youtube.com/watch?v=xlABhbnNrfI)
+
+Installer `mkdocs-material` med følgende kommando
 ```console
 pip install mkdocs-material
 ```
+
 Etterpå har du mulighet til å kjøre serveren med følgende kommando
 ```console
 mkdocs serve
