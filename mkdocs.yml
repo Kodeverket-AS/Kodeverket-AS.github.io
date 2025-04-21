@@ -1,31 +1,64 @@
 site_name: Kodeverket Bergen
 site_url: https://kodeverket-as.github.io/
+copyright: Copyright &copy; 2025 - Kodeverket
 nav:
   - "Introduksjon": index.md
-  - "Kodestandarder":
-    - "Kodestandarder": standards/code-standards.md
+  - "Kunnskapsbase":
+    - guidelines/index.md
+    - "Prosesser":
+      - guidelines/process/index.md
+      - "Prosjektopprettelse": guidelines/process/project-setup.md
+      - "Branching-strategi": guidelines/process/branching.md
+      - "CI/CD": guidelines/process/ci-cd.md
+      - "Testing": guidelines/process/testing.md
+      - "Design og UX": guidelines/process/design-ux.md
+      - "Onboarding": guidelines/process/onboarding.md
+    - "Retningslinjer":
+      - guidelines/policies/index.md
+      - "Sikkerhet": guidelines/policies/security.md
+      - "Tilgjengelighet": guidelines/policies/accessibility.md
+      - "Etikk": guidelines/policies/ethics.md
+      - "AI-verktøy": guidelines/policies/ai-tools.md
+      - "Open Source": guidelines/policies/open-source.md
+    - "Verktøy og team":
+      - guidelines/tools/index.md
+      - "Dev-verktøy": guidelines/tools/dev-environment.md
+      - "Kommunikasjon": guidelines/tools/communication.md
+  - "Kode Standarder":
+    - standards/index.md
+    - "Våre standarder": standards/code-standards.md
     - "Beste praksis": standards/best-practices.md
     - "Kodegjennomgang": standards/code-review.md
-  - "Domenekunnskap":
-    - "Begrepsordliste": domain/glossary.md
-    - "Design og UX": domain/design-ux.md
-  - "Prosesser":
-    - "Prosjektopprettelse": process/project-setup.md
-    - "Branching-strategi": process/branching.md
-    - "CI/CD": process/ci-cd.md
-    - "Testing": process/testing.md
-    - "Onboarding": process/onboarding.md
-  - "Retningslinjer":
-    - "Sikkerhet": policies/security.md
-    - "Tilgjengelighet": policies/accessibility.md
-    - "Etikk": policies/ethics.md
-    - "AI-verktøy": policies/ai-tools.md
-    - "Open Source": policies/open-source.md
-  - "Verktøy og team":
-    - "Dev-verktøy": tools/dev-environment.md
-    - "Kommunikasjon": tools/communication.md
+    - "Begrepsordliste": standards/glossary.md
+  - "Kode Eksempler":
+    - examples/index.md
+    - "React":
+      - "komponenter": examples/react/index.md
+    - "NextJS":
+      - examples/nextjs/index.md
+      - "Komponenter":
+        - examples/nextjs/index.md
+        - "Filstruktur" : examples/nextjs/components/structures.md
+    - "Sanity":
+      - "test": examples/sanity/index.md
+extra:
+  social:
+    - icon: fontawesome/brands/webflow
+      link: https://www.kodeverketbergen.no/
+      name: Kodeverket
+    - icon: fontawesome/brands/github
+      link: https://github.com/Kodeverket-AS
+      name: Kodeverket github
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/kodeverktet-bergen/
+      name: Kodeverket linkedin
 theme:
   name: material
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.indexes
+  language: nb
   font:
     text: Roboto
     code: Roboto Mono
