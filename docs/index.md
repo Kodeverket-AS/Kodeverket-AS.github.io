@@ -5,6 +5,11 @@ search:
   exclude: true
 ---
 
+<!-- hero -->
+<p align="center">
+  <img src="/assets/hero.png" alt="Beskrivelse" width="400" />
+</p>
+
 # Velkommen til Kodeverkets utviklerdokumentasjon
 
 Dette er den sentrale kunnskapsbasen for alle som jobber med utvikling i Kodeverket. Her finner du retningslinjer, rutiner, kodestandarder, eksempelkode og annen nyttig informasjon som hjelper oss å bygge programvare på en strukturert, bærekraftig og effektiv måte.
@@ -44,6 +49,15 @@ Denne dokumentasjonen er først og fremst for:
 Naviger i menyen til venstre for å finne frem til ønsket innhold. Du kan også bruke søkefeltet øverst til høyre for å finne spesifikke temaer eller nøkkelord.
 
 Hvis du finner noe som mangler, er utdatert eller kunne vært bedre forklart – bidra gjerne med en oppdatering! Alle markdown-filene ligger i vårt [GitHub-repo](https://github.com/Kodeverket-AS/Kodeverket-AS.github.io), og vi tar imot pull requests med åpne armer 💜
+
+## Hvordan bidra til dokumentasjonen?
+Du kan bidra til dokumentasjonen ved å gå til vårt [GitHub-repo](https://github.com/Kodeverket-AS/Kodeverket-AS.github.io), gjør endringer via en Pull Request og be om en gjennomgang som ved vanlig kodeendring. Husk:
+
+- Hold språket klart og konsist
+- Bruk norsk i tekst, engelsk i kode
+- Hold struktur og stil konsistent med resten av repoet
+
+Alle i teamet kan og oppfordres til å bidra til dokumentasjonen.
 
 ## Har du spørsmål?
 
