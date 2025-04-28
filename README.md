@@ -40,6 +40,20 @@ Alle i teamet kan og bør bidra til dokumentasjonen. Gjør endringer via en Pull
 > [!NOTE]
 > Lokal forhåndsvising krever at du har python 3.4 eller høyere og har installert `mkdocs-material`. For mer informasjon mer informasjon kan du besøke [offical docs](https://squidfunk.github.io/mkdocs-material/getting-started/) eller sjekke ut denne [youtube tutorial](https://www.youtube.com/watch?v=xlABhbnNrfI)
 
+Anbefalt methode for å kjøre prosjektet er å sitte opp et lokalt miljø er å sitte opp [venv](https://docs.python.org/3/library/venv.html)
+```console
+python -m venv venv
+```
+
+Aktiver virutal environment på din plattform ved å kjøre relevant script i `vent/Scripts`.
+```console
+# Windows
+.\venv\Scripts\Activate.ps1
+
+# Linux/mac
+source venv/Scripts/activate
+```
+
 Installer `mkdocs-material` med følgende kommando
 ```console
 pip install mkdocs-material
