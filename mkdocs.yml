@@ -11,6 +11,7 @@ nav:
       - "Branching-strategi": guidelines/process/branching.md
       - "CI/CD": guidelines/process/ci-cd.md
       - "Testing": guidelines/process/testing.md
+      - "Utvidelser": guidelines/process/dependencies.md
       - "Design og UX": guidelines/process/design-ux.md
       - "Onboarding": guidelines/process/onboarding.md
     - "Kode standarder":
@@ -26,6 +27,22 @@ nav:
       - "Etikk": guidelines/policies/ethics.md
       - "AI-verktøy": guidelines/policies/ai-tools.md
       - "Open Source": guidelines/policies/open-source.md
+    - "Sjekklister":
+      - guidelines/checklists/index.md
+      - "Klienter":
+        - "Nye klienter": guidelines/checklists/clients/client-new.md
+        - "Oppfølging av klienter": guidelines/checklists/clients/client-followup.md
+        - "Ønsket tilbakemeldinger": guidelines/checklists/clients/client-feedback.md
+      - "Prosjekter":
+        - "Nye prosjekter": guidelines/checklists/projects/setup.md
+        - "Long term support": guidelines/checklists/projects/long-term-support.md
+        - "Overføring": guidelines/checklists/projects/transfer-ownership.md
+        - "Prosjektavslutning": guidelines/checklists/projects/termination.md
+      - "Møter":
+        - "Ukesmøte": guidelines/checklists/meetings/weekly.md
+        - "Ledermøte": guidelines/checklists/meetings/admin.md
+        - "Kundemøte": guidelines/checklists/meetings/client.md
+        - "Partnerskapsmøte": guidelines/checklists/meetings/partners.md
     - "Verktøy og team":
       - guidelines/tools/index.md
       - "Dev-verktøy": guidelines/tools/dev-environment.md
